@@ -1,7 +1,7 @@
   - op: add
     path: /spec/nodes/edpm-compute-1
     value:
-      hostName: edpm-compute-1.sandbox-rc7gd-ocp4-cluster.svc.cluster.local
+      hostName: edpm-compute-1.sandbox-r4x49-ocp4-cluster.svc.cluster.local
       networks:
       - name: ctlplane
         subnetName: subnet1
@@ -23,4 +23,4 @@
         ansibleHost: 172.22.0.100
         ansibleUser: cloud-user
         ansibleVars:
-          fqdn_internal_api: edpm-compute-1.sandbox-rc7gd-ocp4-cluster.svc.cluster.local
+          fqdn_internal_api: edpm-compute-1.sandbox-r4x49-ocp4-cluster.svc.cluster.local

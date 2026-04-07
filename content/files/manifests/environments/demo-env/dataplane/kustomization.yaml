@@ -12,4 +12,4 @@ patches:
   - path: patch-nodeset-nodes.yaml
     target:
       kind: OpenStackDataPlaneNodeSet
-      name: preprovisioned-nodeset
+      name: preprovisioned-nodeset    
